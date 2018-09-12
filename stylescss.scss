@@ -1,0 +1,37 @@
+$color: red;
+
+#cont{
+	font-size: 14px;
+
+	p{
+		color: $color;
+	}
+
+	ul{
+		color: green;
+	}
+}
+
+%inherit {
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	border: 1px solid black;
+	padding: 20px;
+	margin: 20px;
+}
+
+#first {
+	@extend %inherit;
+	background-color: red;
+}
+
+#second {
+	@extend %inherit;
+	background-color: green;
+}
+
+#third {
+	@extend %inherit;
+	background-color: blue;
+}

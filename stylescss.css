@@ -1,0 +1,32 @@
+#cont {
+  font-size: 14px;
+}
+#cont p {
+  color: red;
+}
+#cont ul {
+  color: green;
+}
+
+#third, #second, #first {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+#first {
+  background-color: red;
+}
+
+#second {
+  background-color: green;
+}
+
+#third {
+  background-color: blue;
+}
+
+/*# sourceMappingURL=stylescss.css.map */
